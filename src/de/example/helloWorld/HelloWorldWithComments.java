@@ -8,16 +8,14 @@ public class HelloWorldWithComments {
      */
     public static void main(String[] args) {
         // Gibt "Hello World" mit einem Zeilenumbruch dazwischen aus.
-        System.out.println("Hello \n World");
+        System.out.println("Hello \nWorld");
 
         // Gibt einen Dateipfad aus.
         System.out.println("C:\\programmierung\\java");
 
-        // Deklariert und initialisiert ein char mit einem einfachen Anführungszeichen.
-        char singleQuoteFirst = '\'';
 
         // Gibt das einfache Anführungszeichen auf der Konsole aus.
-        System.out.println("Das ist ein einfaches Anführungszeichen als Zeichen: " + singleQuoteFirst);
+        System.out.println('\'');
 
         /*
          * Gibt einen String mit doppelten Anführungszeichen aus.
