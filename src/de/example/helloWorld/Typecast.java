@@ -4,8 +4,8 @@ public class Typecast {
 
     public static void main(String[] args) {
 
-        short a = 5;
-        int b = 14;
+        short a = 30000;
+        int b = 10000;
 
         // Implizite Typumwandlung von short zu int
         int result1 = a + b;
